@@ -1,0 +1,13 @@
+* Random Notes
+** Quantum superposition
+If a qubit is in superposition, then it is both a zero and one at the same time, until it is observed at it becomes just one. Three regular bits in combination have eight possibler values (2^3) but three qubits can be in all eight states at once due to superposition. This means that a quantum computer can calculate every possible result at once, however it is not guaranteed to give you the answer you want to as it can only produce one result, meaning that you have to use a quantum algorithm to determine if it is the correct result, as there will be no trace of what it has done, with looking at it disturbing the results.
+** Bloch sphere
+A sphere used to geometrically represent the likelihood of a given transistor being a zero or one once superposition ends
+
+Sources:
+https://en.wikipedia.org/wiki/Bloch_sphere
+https://medium.com/quantum-untangled/quantum-states-and-the-bloch-sphere-9f3c0c445ea3
+** Wave function
+A wave function, usually represented by the Greek letter psi (upercase Ψ, lowercase 𝛙), is used to represent to likelihood of a wave being in a given location in space at a given time (unlike a particle, which can easily have its location represented as a simple vector, waves interfere with each other, meaning that it is much harder to represent its location). A wave function can be used to generate a heatmap of where the wave is likely to be. It can also be used to generate a graph, with the point on the graph featuring the highest amplitude being the most likely location for the wave.
+
+https://www.youtube.com/watch?v=Xh6NRenkdRk

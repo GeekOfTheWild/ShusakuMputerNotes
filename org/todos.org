@@ -1,0 +1,7 @@
+* General Tasks
+** DONE [#A] Finish configuring Emacs
+CLOSED: [2024-08-27 Tue 01:37]
+Will never happen, finish configuring basic note taking
+:Created: <2024-08-16 Fri 04:45>
+** TODO [#A] Learn how a quantum algorithm works
+:Created: <2024-08-16 Fri 05:14>
