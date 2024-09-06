@@ -13,7 +13,7 @@
 (require 'org)
 
 ;; Must do this so the agenda knows where to look for my files
-(setq org-agenda-files '("~/org"))
+(setq org-agenda-files '("/workspace/ShusaKumputer/ShusakuMputerNotes/org"))
 
 ;; When a TODO is set to a done state, record a timestamp
 (setq org-log-done 'time)
@@ -48,17 +48,17 @@
 (setq org-capture-templates
       '(    
         ("j" "Work Log Entry"
-         entry (file+datetree "~/org/work-log.org")
+         entry (file+datetree "/workspace/ShusaKumputer/ShusakuMputerNotes/org/work-log.org")
          "* %?"
          :empty-lines 0)   
     
         ("n" "Note"
-         entry (file+headline "~/org/notes.org" "Random Notes")
+         entry (file+headline "/workspace/ShusaKumputer/ShusakuMputerNotes/org/notes.org" "Random Notes")
          "** %?"
          :empty-lines 0)
 
         ("g" "General To-Do"
-         entry (file+headline "~/org/todos.org" "General Tasks")
+         entry (file+headline "/workspace/ShusaKumputer/ShusakuMputerNotes/org/todos.org" "General Tasks")
          "* TODO [#B] %?\n:Created: %T\n "
          :empty-lines 0)
       ))
