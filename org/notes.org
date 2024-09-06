@@ -11,3 +11,41 @@ https://medium.com/quantum-untangled/quantum-states-and-the-bloch-sphere-9f3c0c4
 A wave function, usually represented by the Greek letter psi (upercase Ψ, lowercase 𝛙), is used to represent to likelihood of a wave being in a given location in space at a given time (unlike a particle, which can easily have its location represented as a simple vector, waves interfere with each other, meaning that it is much harder to represent its location). A wave function can be used to generate a heatmap of where the wave is likely to be. It can also be used to generate a graph, with the point on the graph featuring the highest amplitude being the most likely location for the wave.
 
 https://www.youtube.com/watch?v=Xh6NRenkdRk
+** Linear functionals
+A function that takes in a column-vector (a 1-wide x-high vector) and returns a row matrix (a 1-high x-wide vector).
+** Dual space
+Given the vector space V, the dual space V^* is the vector space of all linear functionals in V
+** Complex conjugate
+Let complex number A be a + bi where a and b are real numbers and i is sqrt(-1). The complex conjugate of A is a - bi (i.e. you swap the sign)
+** Complex conjugate of matrices
+First see: [[Complex conjugate]]
+
+To find the complex conjugate of a complex matrix, swap the sign of every i, for example let complex matrix 
+A [2+3i   i   6-4i]
+  [  7  2-3i   -i ]
+The complex conjugate matrix of A will be
+  [2-3i  -i   6+4i]
+  [  7  2+3i    i ]
+
+Also see: [[https://www.youtube.com/watch?v=DUuTx2nbizM]]
+** Transpose of a matrix
+Truns rows into columns and columns into rows of a given matrix. For example let matrix
+A [1 2]
+  [3 4]
+The conjugate transpose of A is
+A [1 3]
+  [2 4]
+** Conjugate transpose/Hermitian transpose
+See: [[Transpose of a matrix]]
+See: [[Complex conjugate of matrices]]
+
+The transpose of a complex conjugate of a matrix. Given matrix M, the notation for taking the Hermitian transpose is M^H
+** Hermetian matrix
+See: [[Hermetian matrix]]
+
+A square matrix for which the Hermetian matrix is identical. For example, let matrix 
+M [ 2  1-i]
+  [1+i  3 ]
+The Hermetian matrix of M (M^H) is identical:
+M^H [ 2  1-i]
+    [1+i  3 ]

@@ -8,7 +8,21 @@ Sources:
 https://en.wikipedia.org/wiki/Bloch_sphere
 https://medium.com/quantum-untangled/quantum-states-and-the-bloch-sphere-9f3c0c445ea3
 ** Wave function
-DEADLINE: <2024-08-27 Tue>
 A wave function, usually represented by the Greek letter psi (upercase Ψ, lowercase 𝛙), is used to represent to likelihood of a wave being in a given location in space at a given time (unlike a particle, which can easily have its location represented as a simple vector, waves interfere with each other, meaning that it is much harder to represent its location). A wave function can be used to generate a heatmap of where the wave is likely to be. It can also be used to generate a graph, with the point on the graph featuring the highest amplitude being the most likely location for the wave.
 
 https://www.youtube.com/watch?v=Xh6NRenkdRk
+** Linear functionals
+A function that takes in a column-vector (a 1-wide x-high vector) and returns a row matrix (a 1-high x-wide vector).
+** Dual space
+Given the vector space V, the dual space V^* is the vector space of all linear functionals in V
+** Complex conjugate
+Let complex number A be a + bi where a and b are real numbers and i is sqrt(-1). The complex conjugate of A is a - bi (i.e. you swap the sign)
+** Complex conjugate of matrices
+First see: [[Complex conjugate]]
+
+To find the complex conjugate of a complex matrix, swap the sign of every i, for example let complex matrix 
+A [2+3i   i   6-4i]
+  [  7  2-3i   -i ]
+The complex conjugate matrix of A will be
+[2-3i  -i   6+4i]
+[  7  2+3i    i ]
